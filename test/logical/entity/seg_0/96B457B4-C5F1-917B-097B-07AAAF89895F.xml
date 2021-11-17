@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96B457B4-C5F1-917B-097B-07AAAF89895F" name="ContractFeature">
+<createdBy>pavel</createdBy>
+<createdTime>2021-11-17 07:31:16 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="5FC471AB-6F71-D78F-1822-8F96576B9551" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="contractId" id="C5C2FF32-26C9-153B-145B-2952A5A5C43C">
+<createdBy>pavel</createdBy>
+<createdTime>2021-11-17 07:32:15 UTC</createdTime>
+<generatorID>573A6E56-6FE2-90AB-E46F-64C61CA43A6D</generatorID>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="5FC471AB-6F71-D78F-1822-8F96576B9551" value="true"/>
+</engineerTo>
+<referedAttribute>3D6AC2E1-A677-C316-8DC5-4B27608973D1</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>31650025-6C3B-8A07-A908-2EA3BFBD88B1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="contract has features" directorySegmentName="seg_0" id="573A6E56-6FE2-90AB-E46F-64C61CA43A6D">
+<createdBy>pavel</createdBy>
+<createdTime>2021-11-17 07:31:44 UTC</createdTime>
+<ownerDesignName>test</ownerDesignName>
+<engineerTo>
+<item key="5FC471AB-6F71-D78F-1822-8F96576B9551" value="true"/>
+</engineerTo>
+<sourcePk>243CF103-2940-4AB1-BFDF-91BF70E355A9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A4627235-D730-E2CF-4392-EC2F8CD86337</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>96B457B4-C5F1-917B-097B-07AAAF89895F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
